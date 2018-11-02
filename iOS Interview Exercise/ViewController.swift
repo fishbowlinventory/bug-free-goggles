@@ -23,7 +23,10 @@ class ViewController: UIViewController {
         items.append(Item(price: 29.89, name: "Snake"))
         items.append(Item(price: 11.90, name: "Rabbit"))
         items.append(Item(price: 15.95, name: "Bird"))
-        items.append(Item(price: 21.99, name: "Pig"))    }
+        items.append(Item(price: 21.99, name: "Pig"))
+        
+        remove(itemList: items, lessThan: 10.0)
+    }
 
     // 1. Traverse array (one time) removing all items with price <= X
     private func remove(itemList: [Item], lessThan: Float) {
