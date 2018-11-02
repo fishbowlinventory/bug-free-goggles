@@ -10,11 +10,41 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    private var items = [Item]()
+    
+    // TODO: UI outlets here...
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
 
+        items.append(Item(price: 1.99, name: "Dog"))
+        items.append(Item(price: 4.95, name: "Cat"))
+        items.append(Item(price: 29.89, name: "Snake"))
+        items.append(Item(price: 11.90, name: "Rabbit"))
+        items.append(Item(price: 15.95, name: "Bird"))
+        items.append(Item(price: 21.99, name: "Pig"))    }
+
+    // 1. Traverse array (one time) removing all items with price <= X
+    private func remove(itemList: [Item], lessThan: Float) {
+        // TODO: Implement here
+    }
+    
+    
+    // 2. Generate the sum of item prices
+    private func sum(itemList: [Item]) -> Float {
+        var total: Float = 0.0
+
+        // TODO: Implement here
+        
+        return total
+    }
+    
+    
+    // 3. Display the sum on the main view
+    private func display(sum: Float) {
+        // TODO: Implement here
+    }
 
 }
 

@@ -13,6 +13,7 @@
 		20CABD46218CA8FC00E206BE /* iOS_Interview_Exercise.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 20CABD44218CA8FC00E206BE /* iOS_Interview_Exercise.xcdatamodeld */; };
 		20CABD48218CA8FD00E206BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20CABD47218CA8FD00E206BE /* Assets.xcassets */; };
 		20CABD4B218CA8FD00E206BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20CABD49218CA8FD00E206BE /* LaunchScreen.storyboard */; };
+		20CABD53218CA91F00E206BE /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CABD52218CA91F00E206BE /* Item.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		20CABD47218CA8FD00E206BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		20CABD4A218CA8FD00E206BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		20CABD4C218CA8FD00E206BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20CABD52218CA91F00E206BE /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		20CABD3C218CA8FC00E206BE /* iOS Interview Exercise */ = {
 			isa = PBXGroup;
 			children = (
+				20CABD52218CA91F00E206BE /* Item.swift */,
 				20CABD3D218CA8FC00E206BE /* AppDelegate.swift */,
 				20CABD3F218CA8FC00E206BE /* ViewController.swift */,
 				20CABD41218CA8FC00E206BE /* Main.storyboard */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20CABD53218CA91F00E206BE /* Item.swift in Sources */,
 				20CABD40218CA8FC00E206BE /* ViewController.swift in Sources */,
 				20CABD46218CA8FC00E206BE /* iOS_Interview_Exercise.xcdatamodeld in Sources */,
 				20CABD3E218CA8FC00E206BE /* AppDelegate.swift in Sources */,
