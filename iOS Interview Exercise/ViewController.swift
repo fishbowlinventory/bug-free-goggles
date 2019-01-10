@@ -25,11 +25,11 @@ class ViewController: UIViewController {
         items.append(Item(price: 15.95, name: "Bird"))
         items.append(Item(price: 21.99, name: "Pig"))
         
-        remove(itemList: items, lessThan: 10.0)
+        remove(itemList: &items, lessThan: 10.0)
     }
 
     // 1. Traverse array (one time) removing all items with price <= X
-    private func remove(itemList: [Item], lessThan: Float) {
+    private func remove(itemList: inout [Item], lessThan: Float) {
         // TODO: Implement here
     }
     
@@ -47,6 +47,7 @@ class ViewController: UIViewController {
     // 3. Display the sum on the main view
     private func display(sum: Float) {
         // TODO: Implement here
+        
     }
 
 }
